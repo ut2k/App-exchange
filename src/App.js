@@ -73,7 +73,7 @@ const getCourseTerm = course => (
 
 const getCourseNumber = course => (
   course.id.slice(1, 4)
-);
+)
   
 const Course = ({ course, state }) => (
   <Button color={ buttonColor(state.selected.includes(course)) }
